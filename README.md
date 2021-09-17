@@ -1,3 +1,3 @@
-A Simple implementation in C language of Bubble Blast algorithm game.
+A simple implementation of Bubble Blast algorithm in C language. 
 
-This is a project for Software Development Course of University.
+The project was developed as an university individual task (Software Development Course).
