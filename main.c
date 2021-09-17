@@ -288,7 +288,7 @@ int main() {
     int minMoves =  calculateComputerMove(computerGameField);
 
     while (status == 0) {
-        printf("hai a disposisione %d mosse", minMoves - numMoves);
+        printf("You have %d moves", minMoves - numMoves);
         printFieldGame(gameField);
         selectXY(moveX, moveY, gameField);
         numMoves++;
@@ -298,8 +298,8 @@ int main() {
             status = lost;
         }
     }
-    printf("\n%s\n", (status == 1 ? "HAI VINTO" : "HAI PERSO"));
-    printf("Numero di mosse:%d", numMoves);
+    printf("\n%s\n", (status == 1 ? "You Win!" : "You Lose"));
+    printf("Number of moves: %d", numMoves);
 
     return 0;
 
